@@ -78,3 +78,26 @@ div{
     font-size: 20px;
     padding: 30px;
 }
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color:coral;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: brown;
+}
+.button{
+    background-color: violet;
+    color: wheat;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
